@@ -75,19 +75,19 @@ function clearInputs()
 
     document.getElementById('sum-input-1').value = ''; 
     document.getElementById('sum-input-2').value = '';
-    document.getElementById('sum-answer').value = '';
+    document.getElementById('sum-answer').textContent = '';
 
     document.getElementById('subtract-input-1').value = ''; 
     document.getElementById('subtract-input-2').value = '';
-    document.getElementById('subtract-answer').value = '';
+    document.getElementById('subtract-answer').textContent = '';
 
     document.getElementById('divide-input-1').value = ''; 
     document.getElementById('divide-input-2').value = '';
-    document.getElementById('divide-answer').value = '';
+    document.getElementById('divide-answer').textContent = '';
 
     document.getElementById('multiply-input-1').value = ''; 
     document.getElementById('multiply-input-2').value = '';
-    document.getElementById('multiply-answer').value = '';
+    document.getElementById('multiply-answer').textContent = '';
 }
 
 let clearAll = document.getElementById('clear');
