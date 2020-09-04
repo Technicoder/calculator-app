@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <header>
+        <div class="gutter-right logo">
+            <img src=""/>
+        </div>
+        <h1>Calculate</h1>
+    </header>
+    
+    <main>
+        <section>
+            <input id = "sum-input-1" type ="number" />
+            <span> + </span>
+            <input id="sum-input-2" type="number"/>
+            <button id="sum-button">Add</button>
+            <span id = "sum-answer"></span>
+         </section>    
+         <section>
+            <input id = "subtract-input-1" type ="number" />
+            <span> - </span>
+            <input id="subtract-input-2" type="number"/>
+            <button id="subtract-button">Subtract</button>
+            <span id = "subtract-answer"></span>
+         </section>  
+         <section>
+            <input id = "multiply-input-1" type ="number" />
+            <span> * </span>
+            <input id="multiply-input-2" type="number"/>
+            <button id="multiply-button">Multiply</button>
+            <span id = "multiply-answer"></span>
+         </section>  
+         <section>
+            <input id = "divide-input-1" type ="number" />
+            <span> / </span>
+            <input id="divide-input-2" type="number"/>
+            <button id="divide-button">Divide</button>
+            <span id = "divide-answer"></span>
+         </section>  
+         <button id ="clear">Clear</button>       
+    </main>
+    <footer>
+        <div class="copy gutter-right">&copy; 2020</div>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
